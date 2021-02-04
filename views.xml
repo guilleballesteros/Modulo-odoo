@@ -1,6 +1,6 @@
 <odoo>
-    <record id="view_tree_todo" model="ir.ui.view">
-        <field name="name">view.tree.todo</field>
+    <record id="view_tree_sugerencias" model="ir.ui.view">
+        <field name="name">view.tree.sugerencias</field>
         <field name="model">sugerencias</field>
         <field name="arch" type="xml">
             <tree>
@@ -9,11 +9,11 @@
                 <field name="details"/>
             </tree>
         </field>
-    </record id="Action_view_todo" model="ir.actions.act.window">
+    </record id="Action_view_sugerencias" model="ir.actions.act.window">
         <field name="name">Sugerencias</field>
         <field name="res_model">sugerencia</field>
         <field name="view_mode">tree,form</field>
     <record>
     </record>
-    <menuitem id="menu_todo" parent="" action="action_view_todo"/>
+    <menuitem id="menu_sugerencias" parent="" action="action_view_sugerencias"/>
 </odoo>
